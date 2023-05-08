@@ -22,9 +22,22 @@ game {
   height: 100vh;
   width: 100%;
   position: relative;
+  font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
 }
 #actions {
-  
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #000;
+}
+
+input#wager {
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
 }
 
 /* money */
